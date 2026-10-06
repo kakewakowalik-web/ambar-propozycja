@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontakt | AMBAR – ALDO, Brzezie k. Krakowa</title>
+<meta name="description" content="Telefony, e-maile, adres, godziny otwarcia, mapa i dojazd do AMBAR – ALDO.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Przejdź do treści</a>
+<header class="hd" id="hd">
+  <div class="wrap hd__in">
+    <a href="index.html" class="brand" aria-label="AMBAR – strona główna"><img src="assets/ambar-logo.png" alt="AMBAR" width="1146" height="230"></a>
+    <nav class="nav" id="nav" aria-label="Główna nawigacja"><a href="index.html">Start</a><a href="oferta.html">Oferta</a><a href="o-nas.html">O nas</a><a href="kontakt.html" aria-current="page">Kontakt</a><a href="http://sklepaldo.ambar.pl/pl/sklep" target="_blank" rel="noopener">Sklep <svg class="ico ico--xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg></a></nav>
+    <a class="btn btn--amber btn--sm hide-sm" href="kontakt.html#formularz">Zapytaj o ofertę</a>
+    <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="nav"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+  </div>
+</header>
+<main id="main">
+
+<section class="phero phero--contact">
+  <div class="wrap phero__in">
+    <p class="kicker reveal">Kontakt</p>
+    <h1 class="reveal">Brzezie, <em>ul. Szlachecka 25.</em></h1>
+    <p class="hero__lead reveal">Biura i magazyny naszych firm znajdują się w Brzeziu koło Krakowa (gmina Zabierzów). Zapraszamy pn–pt 8:00–16:00.</p>
+  </div>
+</section>
+<section class="csplit">
+  <div class="cdark">
+    <div class="cdark__in">
+      <p class="kicker">Zadzwoń</p>
+      <a class="cbig" href="tel:+48122851873">12 285 18 73</a>
+      <p class="cmeta">Biuro Handlowe: <a href="tel:+48122851506">12 285 15 06</a> · fax 12 285 21 20</p>
+      <p class="kicker">Napisz</p>
+      <ul class="cmails"><li><a href="mailto:ambar@ambar.pl">ambar@ambar.pl</a><span>AMBAR</span></li><li><a href="mailto:aldo@ambar.pl">aldo@ambar.pl</a><span>ALDO</span></li><li><a href="mailto:biuro@ambar.pl">biuro@ambar.pl</a><span>Biuro Handlowe</span></li><li><a href="mailto:magazyn@ambar.pl">magazyn@ambar.pl</a><span>Magazyn / zamówienia napojów</span></li><li><a href="mailto:sklepaldo@ambar.pl">sklepaldo@ambar.pl</a><span>Sklep internetowy ALDO</span></li></ul>
+      <p class="kicker">Odwiedź</p>
+      <p class="cmeta">AMBAR – ALDO<br>Brzezie, ul. Szlachecka 25, 32-080 Zabierzów<br>pn–pt 8:00–16:00</p>
+      <p class="cmeta small">Biuro Handlowe i Sklep Firmowy: Zabierzów, ul. Rodziny Poganów 7 <span class="ph">[do potwierdzenia]</span></p>
+      <p class="kicker">Dane firmy</p>
+      <p class="cmeta small">Agencja Promocyjno Handlowa AMBAR · Firma Handlowo Usługowa ALDO<br>NIP: <span class="ph">[do uzupełnienia]</span> · REGON: <span class="ph">[do uzupełnienia]</span></p>
+    </div>
+  </div>
+  <form class="cform" id="formularz" novalidate>
+    <h2>Zapytaj <em>o ofertę</em></h2>
+    <p class="muted">Odpowiemy z dostępnością i ceną. Pola * są wymagane.</p>
+    <div class="fl"><input id="f1" name="name" placeholder=" " required autocomplete="name"><label for="f1">Imię i nazwisko *</label></div>
+    <div class="fl"><input id="f2" name="company" placeholder=" " autocomplete="organization"><label for="f2">Firma</label></div>
+    <div class="fpair"><div class="fl"><input id="f3" type="email" name="email" placeholder=" " required autocomplete="email"><label for="f3">E-mail *</label></div><div class="fl"><input id="f4" type="tel" name="phone" placeholder=" " autocomplete="tel"><label for="f4">Telefon</label></div></div>
+    <div class="fl fl--sel"><select id="f5" name="industry"><option value="">—</option><option>Napoje bezalkoholowe</option><option>Wody butelkowane</option><option>Wina i wódki gatunkowe</option><option>Piwo</option><option>Przetwory owocowo-warzywne</option><option>Wyroby cukiernicze</option><option>Gastronomia</option><option>Farmaceutyki i kosmetyki</option><option>Chemia gospodarcza</option><option>Konsument indywidualny</option><option>Inna</option></select><label for="f5">Branża</label></div>
+    <div class="fl"><textarea id="f6" name="msg" rows="4" placeholder=" " required></textarea><label for="f6">Czego potrzebujesz? *</label></div>
+    <label class="consent"><input type="checkbox" required> Zgoda na przetwarzanie danych w celu odpowiedzi. Klauzula RODO: <span class="ph">[do uzupełnienia]</span></label>
+    <button class="btn btn--dark" type="submit">Wyślij zapytanie <svg class="ico ico--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+    <p class="form__msg" role="status" aria-live="polite"></p>
+  </form>
+</section>
+<section class="mapb"><iframe title="Mapa – AMBAR, Brzezie, ul. Szlachecka 25" src="https://maps.google.com/maps?q=ul.%20Szlachecka%2025%2C%20Brzezie%2C%2032-080%20Zabierz%C3%B3w&z=14&output=embed" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
+<section class="sec sec--cream">
+  <div class="wrap">
+    <div class="sec__head sec__head--split reveal"><div><p class="kicker kicker--dark">Dojazd</p><h2>Jak do nas <em>trafić.</em></h2></div><p class="lede">W Polsce jest ok. 50 miejscowości o nazwie Brzezie – nasze leży 2 km od granicy Krakowa, w pobliżu drogi nr 79 (nie mylić z Brzeziem koło Kłaja).</p></div>
+    <div class="dirs"><div class="dir reveal"><span>01</span><h3>Dojazd z Krakowa</h3><p>Drogą nr 79 z Ronda Bronowickiego przy MAKRO jechać w kierunku Katowic–Trzebini. Za węzłem autostrady (nie skręcać na autostradę!) należy skręcić w prawo według drogowskazu do Brzezia, na następnym skrzyżowaniu skręcić w lewo. Od tego skrzyżowania do magazynu AMBAR w Brzeziu jest 1,0 km.</p></div><div class="dir reveal"><span>02</span><h3>Dojazd od strony Śląska (autostradą)</h3><p>Na końcu autostrady, za wiaduktem i Centrum WITEK, skręcić na światłach w lewo jak do LEROY MERLIN i nawrócić na małym rondzie. Powrócić na drogę nr 79 w kierunku Trzebini i potem skręcić w prawo wg drogowskazu do Brzezia, na następnym skrzyżowaniu skręcić w lewo. Od tego skrzyżowania do magazynu AMBAR w Brzeziu jest 1,0 km.</p></div><div class="dir reveal"><span>03</span><h3>Dojazd od strony Trzebini</h3><p>W Zabierzowie na światłach przy kościele skręcić w lewo i ul. Kolejową, a potem Rodziny Poganów dojechać do Bolechowic. Na ul. Zielonej na skrzyżowaniu w kształcie litery T skręcić w prawo w kierunku na Rząskę. Do magazynu AMBAR w Brzeziu z tego skrzyżowania jest około 1,5 km.</p></div><div class="dir reveal"><span>04</span><h3>Dojazd od strony Olkusza</h3><p>W Modlnicy przed NICO przy restauracji MARGARITA skręcić w prawo na Modlniczkę. W Modlniczce na pierwszym skrzyżowaniu przy krzyżu skręcić w lewo i na następnym skrzyżowaniu w prawo. Od tego skrzyżowania do magazynu AMBAR w Brzeziu jest 1,0 km.</p></div></div>
+  </div>
+</section>
+
+</main>
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft__top">
+      <p class="ft__claim">Surowce, dodatki i opakowania<br><em>dla branży spożywczej – od 1990 roku.</em></p>
+      <a class="btn btn--amber" href="kontakt.html#formularz">Zapytaj o ofertę <svg class="ico ico--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div class="ft__grid">
+      <div><img class="ft__logo" src="assets/ambar-logo.png" alt="AMBAR" width="1146" height="230"><p>Agencja Promocyjno Handlowa AMBAR<br>Firma Handlowo Usługowa ALDO</p></div>
+      <div><h3>Adres</h3><p>Brzezie, ul. Szlachecka 25<br>32-080 Zabierzów<br>pn–pt 8:00–16:00</p></div>
+      <div><h3>Kontakt</h3><p><a href="tel:+48122851873">tel. 12 285 18 73</a><br>fax 12 285 21 20<br><a href="mailto:ambar@ambar.pl">ambar@ambar.pl</a></p></div>
+      <div><h3>Serwisy</h3><p><a href="http://sklepaldo.ambar.pl/pl/sklep" target="_blank" rel="noopener">Sklep internetowy ALDO</a><br><a href="http://www.napojeprofilaktyczne.pl" target="_blank" rel="noopener">napojeprofilaktyczne.pl</a><br><a href="http://www.wodadlazdrowia.pl" target="_blank" rel="noopener">wodadlazdrowia.pl</a><br><a href="http://www.ptmag.pl" target="_blank" rel="noopener">ptmag.pl</a></p></div>
+    </div>
+    <div class="ft__bottom"><span>© 1990–2026 AMBAR – ALDO · NIP: <span class="ph">[do uzupełnienia]</span></span><span>Polityka prywatności <span class="ph">[do uzupełnienia]</span></span><span class="credit">Zdjęcia cytrusów: Ben Ashby, Tamanna Rumee / Unsplash</span></div>
+  </div>
+</footer>
+<script src="assets/main.js"></script>
+</body>
+</html>
